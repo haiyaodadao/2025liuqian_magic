@@ -76,3 +76,9 @@ if failed_cases:
         print(case)
 else:
     print("所有情况均已验证，最右边的都是杯子。")
+ 
+# 等待用户输入Ctrl+C退出 
+try:
+    input("按Ctrl+C退出...")
+except KeyboardInterrupt:
+    print("\n程序已退出。")
